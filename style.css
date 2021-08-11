@@ -14,6 +14,7 @@ h1 {
     border: #eee solid 10px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 200%;
 }
 
 table {
@@ -59,6 +60,7 @@ button:hover {
 .answer {
     width: fit-content;
     text-align: center;
+    margin-top: 3%;
     padding: 2rem;
     font-size: 3rem;
     border: #eee solid 10px;
