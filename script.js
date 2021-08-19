@@ -23,6 +23,18 @@ const resetBtn = document.getElementById("btn-restart");
 //Event listeners
 checkBtn.addEventListener("click", check);
 resetBtn.addEventListener("click", restart);
+document.addEventListener('keypress', (event) => {
+    var name = event.key;
+    var code = event.code;
+    //alert(name)
+    if (name == "Enter") {
+        //alert(name == "Enter")
+        check()
+    } else if (name == "r") {
+        //alert(name)
+        restart()
+    }
+  }, false);
 
 // Functions
 function checkMsg(number) {
